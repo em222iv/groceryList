@@ -9,8 +9,10 @@
         <item url="file://$USER_HOME$/.meteor/packages/percolate_momentum/0.7.2/web.browser/packages/percolate:momentum.js" />
         <item url="file://$USER_HOME$/.meteor/packages/url/1.0.5/web.browser/packages/url.js" />
         <item url="file://$USER_HOME$/.meteor/packages/velocity_source-map-support/0.3.2_1/web.browser/packages/velocity_source-map-support.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/materialize_materialize/0.97.1/web.browser/packages/materialize_materialize.js" />
         <item url="file://$USER_HOME$/.meteor/packages/useraccounts_core/1.12.4/web.browser/lib/methods.js" />
         <item url="file://$USER_HOME$/.meteor/packages/useraccounts_core/1.12.4/web.browser/lib/field.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/materialize_materialize/0.97.1/web.browser/packages/materialize_materialize/bin/materialize.css" />
         <item url="file://$USER_HOME$/.meteor/packages/useraccounts_core/1.12.4/web.browser/lib/utils.js" />
         <item url="file://$USER_HOME$/.meteor/packages/useraccounts_core/1.12.4/web.browser/lib/client.js" />
         <item url="file://$USER_HOME$/.meteor/packages/philippspo_momentum-flow-router/0.0.7/web.browser/packages/philippspo_momentum-flow-router.js" />
@@ -156,8 +158,10 @@
       <root url="file://$USER_HOME$/.meteor/packages/percolate_momentum/0.7.2/web.browser/packages/percolate:momentum.js" />
       <root url="file://$USER_HOME$/.meteor/packages/url/1.0.5/web.browser/packages/url.js" />
       <root url="file://$USER_HOME$/.meteor/packages/velocity_source-map-support/0.3.2_1/web.browser/packages/velocity_source-map-support.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/materialize_materialize/0.97.1/web.browser/packages/materialize_materialize.js" />
       <root url="file://$USER_HOME$/.meteor/packages/useraccounts_core/1.12.4/web.browser/lib/methods.js" />
       <root url="file://$USER_HOME$/.meteor/packages/useraccounts_core/1.12.4/web.browser/lib/field.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/materialize_materialize/0.97.1/web.browser/packages/materialize_materialize/bin/materialize.css" />
       <root url="file://$USER_HOME$/.meteor/packages/useraccounts_core/1.12.4/web.browser/lib/utils.js" />
       <root url="file://$USER_HOME$/.meteor/packages/useraccounts_core/1.12.4/web.browser/lib/client.js" />
       <root url="file://$USER_HOME$/.meteor/packages/philippspo_momentum-flow-router/0.0.7/web.browser/packages/philippspo_momentum-flow-router.js" />
