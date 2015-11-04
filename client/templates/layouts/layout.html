@@ -1,0 +1,13 @@
+<template name="layout">
+        <header>
+            {{> Template.dynamic template=header}}
+        </header>
+        {{#momentum plugin='flow-router'}}
+
+            {{> Template.dynamic template=main}}
+        {{/momentum}}
+
+        <footer>
+            {{> Template.dynamic template=footer}}
+        </footer>
+</template>
