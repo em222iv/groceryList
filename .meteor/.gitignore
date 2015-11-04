@@ -1,1 +1,7 @@
+# Ignore local
 local
+
+# But not these files...
+!.gitignore
+karma
+# etc...
