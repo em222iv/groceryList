@@ -2,30 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac482758-605e-454d-ac3b-cc55b2781b6e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/templates/layouts/layout.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/templates/layouts/layout.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/templates/main.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/templates/pages/about.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/templates/pages/about.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/templates/pages/home.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/templates/pages/home.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/templates/shared/footer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/templates/shared/footer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/templates/shared/head.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/templates/shared/head.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/templates/shared/header.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/templates/shared/header.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/collections/Ingredients.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/collections/Lists.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/routes/routes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/publications/ingredients.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/publications/lists.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/startup.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/startup.js" afterPath="$PROJECT_DIR$/server/startup.js" />
     </list>
     <ignored path="groceryList.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,8 +27,8 @@
       <file leaf-file-name="startup.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server/startup.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.24418604">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.13953489">
+              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -251,6 +229,13 @@
       <option name="number" value="Default" />
       <updated>1446662999165</updated>
     </task>
+    <task id="LOCAL-00001" summary="Implemented:&#10;List, Ingredients Collections and Publish.&#10;&#10;Test implementation:&#10;Check if there are any Lists avaible on server or client - FAIL">
+      <created>1446666034730</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1446666034730</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -259,6 +244,7 @@
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32278994" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -277,6 +263,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Implemented:&#10;List, Ingredients Collections and Publish.&#10;&#10;Test implementation:&#10;Check if there are any Lists avaible on server or client" />
+    <MESSAGE value="Implemented:&#10;List, Ingredients Collections and Publish.&#10;&#10;Test implementation:&#10;Check if there are any Lists avaible on server or client - FAIL" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented:&#10;List, Ingredients Collections and Publish.&#10;&#10;Test implementation:&#10;Check if there are any Lists avaible on server or client - FAIL" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -360,7 +351,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -370,7 +361,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -396,7 +387,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -457,10 +448,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/server/fixtures/lists.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/fixtures/ingredients.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/server/startup.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24418604">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.13953489">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
