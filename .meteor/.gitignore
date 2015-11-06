@@ -1,6 +1,3 @@
 # Ignore local
 local
-
-# But not these files...
-!.gitignore
-tests
+tests/a1-package-stubs.js
