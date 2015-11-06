@@ -1,0 +1,8 @@
+<template name="lists">
+    <div class="lists"><h1 id="list-header">lists</h1></div>
+    {{#if currentUser}}
+        {{#each lists}}
+            <h3>{{title}}</h3>
+        {{/each}}
+    {{/if}}
+</template>

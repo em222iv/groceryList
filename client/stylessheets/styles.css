@@ -1,0 +1,14 @@
+nav {
+    top: 0px;
+    position: absolute;
+}
+.arcmenu-menu li {
+    z-index: 100000000000;
+}
+.arcmenu {
+    position: relative;
+    top:4px;
+}
+#login, #logout {
+    margin: 10px;
+}

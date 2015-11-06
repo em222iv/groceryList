@@ -30,3 +30,8 @@ alanning:roles
 philippspo:momentum-flow-router
 
 materialize:materialize@=0.97.0
+pistou:arcmenu
+useraccounts:materialize
+useraccounts:core
+accounts-facebook
+service-configuration

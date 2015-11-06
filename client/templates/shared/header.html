@@ -1,3 +1,26 @@
 <template name="header">
- <h1>header</h1>
+    <div class="row">
+        <div class="col s12">
+            <div class="arcmenu" style="display: inline-block; width: 55px; height: 55px; ">
+                <a id="menu-button" href="#" class="btn-floating btn-large waves-effect waves-light arcmenu-display" style="position: absolute; display: block; width: 55px; height: 55px;">+</a>
+                <ul class="arcmenu-menu" style="position: relative; display: none; margin: 0px; width: 55px; height: 55px;">
+                    {{#if currentUser}}
+                        <li style="position: absolute; top: 0px; left: 0px; opacity: 0;"><a href="{{pathFor 'home'}}" class="btn-floating btn-large waves-effect waves-light teal">Home</a></li>
+                        <li style="position: absolute; top: 0px; left: 0px; opacity: 0;"><a href="{{pathFor 'about'}}" class="btn-floating btn-large waves-effect waves-light teal">about</a></li>
+                        <li style="position: absolute; top: 0px; left: 0px; opacity: 0;"><a href="{{pathFor 'lists'}}" class="btn-floating btn-large waves-effect waves-light teal">lists</a></li>
+                    {{/if}}
+                </ul>
+            </div>
+        </div>
+    </div>
+    <nav>
+        <div class="nav-wrapper">
+            {{#if currentUser}}
+                <a href="{{pathFor 'home'}}" id="logout" class="btn waves-effect waves-light red lighten-3 right">Logout</a>
+                <a href="#" >{{currentUser.services.facebook.name}}</a>
+            {{else}}
+                <a href="{{pathFor 'login'}}" id="login" class="btn waves-effect waves-light red lighten-3 right">Login</a>
+            {{/if}}
+        </div>
+    </nav>
 </template>
