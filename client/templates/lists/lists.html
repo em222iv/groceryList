@@ -1,8 +1,25 @@
 <template name="lists">
-    <div class="lists"><h1 id="list-header">lists</h1></div>
-    {{#if currentUser}}
-        {{#each lists}}
-            <h3>{{title}}</h3>
-        {{/each}}
-    {{/if}}
+
+    <div class="row">
+        <div class="input-field col s12">
+            <div class="input-field col s6">
+                <div class="lists"><h1 id="list-header">lists</h1></div>
+                {{#if currentUser}}
+                    {{#each lists}}
+                        {{title}}
+                        <form>
+                            <a href="/lists/{{_id}}">show</a>
+                            <a id="removeList">remove</a>
+                            created by: {{author}}
+                        </form>
+                    {{/each}}
+                {{/if}}
+            </div>
+            <div class="input-field col s6">
+                <input id="listInput"  type="text" placeholder="Add a new list">
+            </div>
+            <a id="addList" class="waves-effect waves-light btn">add</a>
+        </div>
+    </div>
+
 </template>

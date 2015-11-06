@@ -4,7 +4,13 @@ describe('Lists', function () {
         Tracker.afterFlush(done);
     });
 
-    it("Lists in listview", function(){
-        expect(Lists.find().count()).toBeGreaterThan(0);
+    it("No Lists should be avaible when not logged in", function(){
+        expect(Lists.find().count()).toBe(0);
+    });
+
+    it("Lists should be avaible when logged in", function(){
+        Meteor.loginWithPassword("erik@gmail.com", "password", function (err) {
+            expect(Lists.find().count()).toBeGreaterThan(0);
+        });
     });
 });

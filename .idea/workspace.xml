@@ -1,30 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac482758-605e-454d-ac3b-cc55b2781b6e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/stylessheets/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/templates/lists/lists.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/templates/lists/lists.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/templates/pages/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/templates/pages/login.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/server-config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/jasmine/client/integration/sample/spec/ListsSpec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/jasmine/client/integration/sample/spec/UserSpec.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/jasmine/client/integration/sample/spec/ListSpec.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_browser.xml" afterPath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_browser.xml" />
+    <list default="true" id="ac482758-605e-454d-ac3b-cc55b2781b6e" name="Default" comment="GREEN - user loggedin &#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/methods/lists.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/packages" afterPath="$PROJECT_DIR$/.meteor/packages" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/versions" afterPath="$PROJECT_DIR$/.meteor/versions" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/pages/about.html" afterPath="$PROJECT_DIR$/client/templates/pages/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/pages/home.html" afterPath="$PROJECT_DIR$/client/templates/pages/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/pages/home.js" afterPath="$PROJECT_DIR$/client/templates/pages/home.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/shared/head.html" afterPath="$PROJECT_DIR$/client/templates/shared/head.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/shared/head.js" afterPath="$PROJECT_DIR$/client/templates/shared/head.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/stylessheets/styles.css" afterPath="$PROJECT_DIR$/client/stylessheets/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/lists/lists.html" afterPath="$PROJECT_DIR$/client/templates/lists/lists.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/lists/lists.js" afterPath="$PROJECT_DIR$/client/templates/lists/lists.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/pages/login.js" afterPath="$PROJECT_DIR$/client/templates/pages/login.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/shared/header.html" afterPath="$PROJECT_DIR$/client/templates/shared/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/shared/header.js" afterPath="$PROJECT_DIR$/client/templates/shared/header.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/routes/routes.js" afterPath="$PROJECT_DIR$/lib/routes/routes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/jasmine/client/unit/sample/spec/PlayerSpec.js" afterPath="$PROJECT_DIR$/tests/jasmine/client/unit/sample/spec/PlayerSpec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/jasmine/server/integration/sample/spec/ListSpec.js" afterPath="$PROJECT_DIR$/tests/jasmine/server/integration/sample/spec/ListSpec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/server-config.js" afterPath="$PROJECT_DIR$/server/server-config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/jasmine/client/integration/sample/spec/ListsSpec.js" afterPath="$PROJECT_DIR$/tests/jasmine/client/integration/sample/spec/ListsSpec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/jasmine/client/integration/sample/spec/UserSpec.js" afterPath="$PROJECT_DIR$/tests/jasmine/client/integration/sample/spec/UserSpec.js" />
     </list>
     <ignored path="groceryList.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,38 +32,7 @@
     <favorites_list name="groceryList" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ListsSpec.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/jasmine/client/integration/sample/spec/ListsSpec.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.4444447">
-              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserSpec.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/jasmine/client/integration/sample/spec/UserSpec.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="30" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lists.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/templates/lists/lists.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -122,17 +79,18 @@
         <option value="$PROJECT_DIR$/.meteor/packages" />
         <option value="$PROJECT_DIR$/client/templates/pages/about.html" />
         <option value="$PROJECT_DIR$/client/templates/layouts/layout.js" />
-        <option value="$PROJECT_DIR$/client/stylessheets/styles.css" />
-        <option value="$PROJECT_DIR$/client/templates/pages/login.js" />
         <option value="$PROJECT_DIR$/client/templates/pages/login.html" />
-        <option value="$PROJECT_DIR$/server/server-config.js" />
-        <option value="$PROJECT_DIR$/lib/routes/routes.js" />
         <option value="$PROJECT_DIR$/client/templates/shared/header.js" />
-        <option value="$PROJECT_DIR$/client/templates/lists/lists.html" />
-        <option value="$PROJECT_DIR$/client/templates/shared/header.html" />
-        <option value="$PROJECT_DIR$/client/templates/lists/lists.js" />
+        <option value="$PROJECT_DIR$/lib/routes/routes.js" />
         <option value="$PROJECT_DIR$/tests/jasmine/client/integration/sample/spec/ListsSpec.js" />
         <option value="$PROJECT_DIR$/tests/jasmine/client/integration/sample/spec/UserSpec.js" />
+        <option value="$PROJECT_DIR$/server/methods/lists.js" />
+        <option value="$PROJECT_DIR$/server/server-config.js" />
+        <option value="$PROJECT_DIR$/client/templates/pages/login.js" />
+        <option value="$PROJECT_DIR$/client/templates/lists/lists.js" />
+        <option value="$PROJECT_DIR$/client/templates/shared/header.html" />
+        <option value="$PROJECT_DIR$/client/stylessheets/styles.css" />
+        <option value="$PROJECT_DIR$/client/templates/lists/lists.html" />
       </list>
     </option>
   </component>
@@ -339,7 +297,13 @@
       <option name="project" value="LOCAL" />
       <updated>1446802875127</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="GREEN - user loggedin &#10;Implemented: login view, and some styling">
+      <created>1446827280123</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1446827280127</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -376,7 +340,8 @@
     <MESSAGE value="Testpush tests again-..." />
     <MESSAGE value="Testpush tests again..." />
     <MESSAGE value="GREEN - lists avaible on client" />
-    <option name="LAST_COMMIT_MESSAGE" value="GREEN - lists avaible on client" />
+    <MESSAGE value="GREEN - user loggedin &#10;Implemented: login view, and some styling" />
+    <option name="LAST_COMMIT_MESSAGE" value="GREEN - user loggedin &#10;Implemented: login view, and some styling" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -512,14 +477,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/shared/head.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13015184">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/fixtures/lists.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.40206185">
@@ -604,14 +561,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.meteor/packages">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.962963">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/templates/pages/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.625">
@@ -636,34 +585,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/stylessheets/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.125">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/templates/pages/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.625">
           <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/pages/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/server-config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21649484">
-          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
           <folding />
         </state>
       </provider>
@@ -676,57 +601,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/routes/routes.js">
+    <entry file="file://$PROJECT_DIR$/tests/jasmine/client/integration/sample/spec/UserSpec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58762884">
-          <caret line="19" column="61" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="61" />
+        <state vertical-scroll-proportion="0.06185567">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/shared/header.html">
+    <entry file="file://$PROJECT_DIR$/lib/routes/routes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48387095">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.52577317">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.meteor/packages">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33178654">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/server-config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2783505">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/shared/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13015184">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/stylessheets/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35791758">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/templates/lists/lists.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.097613886">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/lists/lists.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        <state vertical-scroll-proportion="-3.125">
+          <caret line="5" column="72" selection-start-line="5" selection-start-column="72" selection-end-line="5" selection-end-column="72" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/jasmine/client/integration/sample/spec/ListsSpec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.4444447">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.30927834">
+          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/jasmine/client/integration/sample/spec/UserSpec.js">
+    <entry file="file://$PROJECT_DIR$/client/templates/lists/lists.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="30" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.8041237">
+          <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/shared/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5119306">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/pages/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2783505">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/methods/lists.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21649484">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
           <folding />
         </state>
       </provider>

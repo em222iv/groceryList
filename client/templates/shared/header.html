@@ -14,10 +14,10 @@
         </div>
     </div>
     <nav>
-        <div class="nav-wrapper">
+        <div id="nav-nav-wrapper" class="nav-wrapper">
             {{#if currentUser}}
                 <a href="{{pathFor 'home'}}" id="logout" class="btn waves-effect waves-light red lighten-3 right">Logout</a>
-                <a href="#" >{{currentUser.services.facebook.name}}</a>
+                <a href="{{pathFor 'profile'}}" class="btn waves-effect waves-light red lighten-3 right">{{currentUser.username}}</a>
             {{else}}
                 <a href="{{pathFor 'login'}}" id="login" class="btn waves-effect waves-light red lighten-3 right">Login</a>
             {{/if}}

@@ -9,6 +9,6 @@ nav {
     position: relative;
     top:4px;
 }
-#login, #logout {
+#nav-nav-wrapper a {
     margin: 10px;
 }

@@ -1,16 +1,17 @@
 describe('User', function () {
-    var fakeUser;
+
     beforeEach(function (done) {
-        fakeUser = {
-            _id: '123',
-            // Other properties...
-        };
-        spyOn(Meteor, 'user').and.returnValue(fakeUser);
         Tracker.afterFlush(done);
     });
 
-    it("logged in user", function(){
-        expect(Meteor.user()._id).not.toBeNull();
+    it("logged in user", function() {
+        Meteor.loginWithPassword("erik@gmail.com", "password", function (err) {
+            expect(Meteor.userId()).not.toBeNull();
+        });
+    });
+
+    it("not logged in", function() {
+        expect(Meteor.userId()).toBeNull()
     });
 
 });
