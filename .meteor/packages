@@ -28,4 +28,5 @@ accounts-password
 useraccounts:flow-routing
 alanning:roles
 philippspo:momentum-flow-router
-materialize:materialize
+
+materialize:materialize@=0.97.0
